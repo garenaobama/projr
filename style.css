@@ -1,0 +1,167 @@
+body {
+    margin:0;
+    text-align: center;
+}
+#back-ground-1{
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+}
+#inner-event-1{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+#introduction {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100px;
+    color: cornsilk;
+    margin-left : 10%;
+    margin-right : 10%;
+}
+#cmsn {
+    width: 80%;
+    display: none;
+    margin-left: 10%;
+    animation-name: example;
+    animation-duration: 1s;
+}
+#back-ground-img{
+    width: 100%;
+}
+#vanoanh1 {
+    width: 50%;
+    margin-left: 25%;
+    display: none;
+    animation-name: example;
+    animation-duration: 1s;
+}
+#datebirth {
+    display: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    color: cornsilk;
+    animation-name: example;
+    animation-duration: 1s;
+}
+#name {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    color: cornsilk;
+    display: none;
+    animation-name: example;
+    animation-duration: 1s;
+}
+#wish1 {
+    display:none ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    color: cornsilk;
+    animation-name: example;
+    animation-duration: 1s;
+}
+#oanh22{
+    display: none;
+    width: 35%;
+    margin-left: 10%;
+    animation-name: example;
+    animation-duration: 1s;
+}
+#oanh23{
+    display: none;
+    width : 35%;
+    animation-name: example;
+    animation-duration: 1s;
+    margin-left: 50%;
+}
+#wish2{
+    display: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    color: cornsilk;
+    animation-name: example;
+    animation-duration: 1s;
+}
+#daihoc{
+    display: none;
+    width:60%;
+    margin-left: 20%;
+    animation-name: example;
+    animation-duration: 1s;
+}
+#wish3{
+    display: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    color: cornsilk;
+    animation-name: example;
+    animation-duration: 1s;
+}
+#hinhcuoi{
+    display: none;
+    width: 60%;
+    margin-left: 20%;
+    animation-name: example;
+    animation-duration: 1s;
+}
+#loicuoi{
+    margin-top: 20%;
+    display: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    color: cornsilk;
+    animation-name: example;
+    animation-duration: 1s;
+}
+#credid {
+    display:none;
+    font-family: courier;
+    font-size: 35px;
+    animation-name: example;
+    animation-duration: 1s;
+}
+#start-letters{
+    border-radius:50px;
+    background: linear-gradient(65deg, rgba(200,40,118,1) 0%, rgba(255,255,255,1) 14%, rgba(200,40,118,1) 100%);
+    font-size: 70px;
+    font-family: Arial;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: block;
+}
+#start-letters:hover{
+    background: linear-gradient(65deg, rgba(200,40,118,1) 0%, rgba(255,255,255,1) 80%, rgba(200,40,118,1) 100%);
+}
+@keyframes fade-out-1 {
+    from {opacity: 0%;}
+    to {opacity:100%;}
+}
+@keyframes right-in-1 {
+    from {margin-left: 100%;}
+    to {margin-left: 25%;}
+}
+@keyframes float-on-1 {
+    from {margin-top: 100%;}
+    to {margin-top: 5%;}
+}
+@keyframes fade-out-2 {
+    from {opacity: 0%;}
+    to {opacity:100%;}
+}
+@keyframes right-in-2 {
+    from {margin-left: 100%;}
+    to {margin-left: 50%;}
+}
+@keyframes right-in-22 {
+    from {margin-left: 100%;}
+    to {margin-left: 10%;}
+}
+@keyframes end {
+    0%   {margin-left: 100%;}
+    25%  {margin-left: 10%;}
+    50%  {margin-left: 30%;}
+    75%  {margin-left: 15%;}
+    100% {margin-left: 20%;}
+}
